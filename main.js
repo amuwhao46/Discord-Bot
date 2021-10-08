@@ -18,10 +18,10 @@ client.on('message', message =>{
     const command = args.shift().toLowerCase(); // takes prefix out
 
     // Display's to user
-    if(command == 'ping')
+    if(command == 'ping') {
         message.channel.send('pong!')
-    else if (command == 'YouTube') {
-        message.channel.send('https://YouTube.com/watch?v=dQw4w9WgXcQ')
+    } else if (command == 'zig') {
+        message.channel.send('zag!')
     }
 });
 
